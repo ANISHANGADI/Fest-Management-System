@@ -1,0 +1,37 @@
+#about {
+  font-family: "test1";
+  padding: 120px 9% 140px 9%;
+  background-image: url(../public/background.svg) !important;
+  background-color: #182136ba;
+}
+
+#about span {
+  background: -webkit-linear-gradient(#e39600, magenta);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about h1 {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+#about p {
+  font-family: monospace;
+  line-height: 1.3;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 600px) {
+  #about p {
+    font-size: 1rem;
+  }
+  #about h1 {
+    font-size: 2.1rem;
+  }
+  #about {
+    padding: 90px 9% 90px 9%;
+  }
+}

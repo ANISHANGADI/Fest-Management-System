@@ -1,0 +1,29 @@
+#declareWinner {
+  padding: 110px 60px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.selectWinnersParent {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .selectWinnersChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#declareWinner .caption {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-family: "sora";
+  background: linear-gradient(to right, #fd2d00, #df007b, #1d1b26);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

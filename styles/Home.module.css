@@ -1,0 +1,89 @@
+#heroPage {
+  /* padding-top: 6.6rem !important; */
+  padding-top: 0rem !important;
+  color: white;
+  width: 100%;
+  font-weight: 700;
+  height: 100vh;
+  background-image: url(../public/background.svg) !important;
+  background-attachment: fixed;
+  justify-content: center !important;
+  padding-bottom: 140px;
+  align-items: center !important;
+  flex-direction: column;
+  background-color: black;
+  display: flex;
+}
+
+.heroContent {
+  font-family: "test1";
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-direction: column;
+}
+
+.heroContent h4 {
+  background: -webkit-linear-gradient(#e39600, magenta);
+  /* background: -webkit-linear-gradient(magenta, cyan); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.55rem;
+  margin: 2rem 0;
+}
+.heroContent h1 {
+  font-size: 6rem;
+}
+.heroContent span {
+  /* color: linear-gradient(to right, #e39600, #ea4c89, #8f48eb, #1da1f2); */
+  /* background: -webkit-linear-gradient(#e39600, magenta); */
+  background: -webkit-linear-gradient(#e39600, magenta);
+  animation: fadeup 1s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-iteration-count: infinite;
+  transition: 3s;
+}
+
+.hrStyle {
+  width: 70%;
+  background-repeat: repeat;
+  background-size: contain;
+  margin: auto;
+  border: 0.3px solid rgba(255, 255, 255, 0.3);
+  /* background-color: #0D1117 !important; */
+  background-color: #182136ba !important;
+}
+
+@media (max-width: 600px) {
+  .heroContent h1 {
+    font-size: 3.9rem;
+  }
+  .heroContent h4 {
+    font-size: 1.1rem;
+  }
+  .heroContent {
+    padding-bottom: 50px;
+  }
+  #heroPage {
+    height: 80vh;
+  }
+}
+
+@keyframes fadeup {
+  0% {
+    background: -webkit-linear-gradient(#000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: -webkit-linear-gradient(#e39700, magenta);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* 100% {
+    background: -webkit-linear-gradient(magenta, cyan);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } */
+}

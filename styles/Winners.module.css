@@ -1,0 +1,60 @@
+#winnerPage h1 {
+  font-family: "poppins";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: magenta;
+  /* background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44); */
+  background: linear-gradient(to right, #fd2d00, #df007c, #1d1b26);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  font-weight: 700;
+}
+
+#winnerPage {
+  margin: 20px 30px;
+  padding: 0 4%;
+}
+
+#winnerPage .winnerCard {
+  width: 100%;
+  margin: 0px 100px;
+  box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  color: black;
+  padding: 20px 22px;
+  background: linear-gradient(to right, #fd2e0074, #df007b7f);
+  /* background: linear-gradient(to right, pink, rgba(255, 0, 255, 0.571)); */
+  height: 150px;
+  background-color: white;
+}
+
+.winnersHr {
+  width: 70%;
+  background-repeat: repeat;
+  background-size: contain;
+  margin: 120px auto;
+  /* margin: auto; */
+  border: 0.3px solid rgba(255, 255, 255, 0.3);
+  /* background-color: #0D1117 !important; */
+  background-color: #182136ba !important;
+}
+
+.winnerName {
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "poppins";
+}
+
+.winnerUsn {
+  font-size: 19px;
+  font-family: "space mono";
+}
+
+.winnerSem,
+.winnerSec {
+  font-size: 17px;
+  font-family: "poppins";
+}
